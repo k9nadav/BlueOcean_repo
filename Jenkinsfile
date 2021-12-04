@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Get Checkout') {
       steps {
-        git(url: 'https://github.com/k9nadav/BlueOcean_repo.git', branch: 'main')
+        git(url: 'http://github.com/k9nadav/BlueOcean_repo.git', branch: 'main')
         echo 'Successfully from GitHub '
       }
     }
